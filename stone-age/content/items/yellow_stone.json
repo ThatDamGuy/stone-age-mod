@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Yellow Stone. It makes some electric sparks.",
+	"description": "A rare resource.",
+	"hardness": 1,
+	"cost": 2.0,
+	"color": "FEE12B"
+}

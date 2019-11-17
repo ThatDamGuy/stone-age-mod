@@ -1,0 +1,8 @@
+{
+	"name": "Electric Lava",
+	"description": "This strange liquid makes some electricity. Wonder how.",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "E4CD05"
+}

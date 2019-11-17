@@ -1,0 +1,8 @@
+{
+	"name": "Lava",
+	"description": "Imagine slag, but with stone. Boom.",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "FFAA1D"
+}

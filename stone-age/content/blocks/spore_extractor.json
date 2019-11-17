@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Spore Extractor",
+	"description": "Extracts Spore from the stone it grows on. These are not shrooms, don't smoke them.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "spore-pod", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 70,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+				{ "item": "purple-stone", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "purple-stone", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

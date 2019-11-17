@@ -1,0 +1,30 @@
+{
+	"name": "The Tank",
+	"description": "Big health, big damage, but big heavy and big slowness. I bet you never saw a tank in a race.",
+	"health": 2000,
+	"mass": 10.0,
+	"speed": 0.5,
+	"maxVelocity": 0.9,
+	"drag": 0.01,
+	"shootCone": 1.0,
+	"flying": false,
+	"engineOffset": 1,
+	"engineSize": 2,
+	"weapon": {
+		"name": "da-big-cannon",
+		"length": 2.5,
+		"reload": 10.0,
+		"width" : 5,
+		"shots": 2,
+		"innacuracy": 2.0,
+		"alternate": false,
+		"bullet": {
+			"speed" : 10.0,
+			"damage" : 500,
+			"bulletWidth" : 30,
+			"bulletHeight" : 90,
+			"frontColor" : "D3D3D3",
+			"backColor" : "BEBEBE"
+               }
+	}
+}

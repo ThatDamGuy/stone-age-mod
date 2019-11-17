@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Stone",
+	"description": "Stone. I mean, there's not a lot to say. Maybe it'll remind some of the good ol' days...",
+	"cost": 2.5,
+	"color": "949494"
+}

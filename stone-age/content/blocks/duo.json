@@ -1,0 +1,21 @@
+{
+	"shootSound": "swings",
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming",
+		"stone": {
+			"speed": 3.0,
+			"damage": 2,
+			"reloadMultiplier": 0.5,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "555555",
+			"frontColor": "999999"
+		}
+	}
+}

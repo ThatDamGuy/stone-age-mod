@@ -1,0 +1,25 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "OIl Power Plant",
+	"description": "Yes. You saw it too. It is no joke. It's... The Oil Power Generator. I know, I know. That's what you wanted. *applause*",
+	"size": 1,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 30,
+	"powerProduction": 0.2,
+	"consumes": {
+		"items": {
+			"liquids": [
+				{ "liquid": "oil", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "stone", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "power",
+	"research": "combustion-generator"
+}

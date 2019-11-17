@@ -1,0 +1,7 @@
+{
+	"type": "floor",
+	"name": "Purple Stone",
+	"itemDrop": "purple-stone",
+	"variants": 3,
+	"playerUnmineable": false
+}

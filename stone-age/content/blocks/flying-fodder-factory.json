@@ -1,0 +1,23 @@
+{
+	"name": "Flying Fodder Factory",
+	"description": "Makes Flying Fodder units. Honestly it's a waste of ressources. Welp. Do what you want.",
+	"type": "UnitFactory",
+	"unitType": "flying-fodder",
+	"size": 2,
+	"produceTime": 350,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "stone", "amount": 10},
+			]
+		}
+	},
+	"category": "units",
+	"research": "dagger-factory",
+	"requirements": [
+		{ "item": "stone", "amount": 10 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "lead", "amount": 40 },
+	]
+}

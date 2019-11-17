@@ -1,0 +1,25 @@
+{
+	"name": "Cannon Fodder",
+	"description": "THIS MECH IS BASED OUT OF STONE! What did you expect?",
+	"speed": 0.2,
+	"boostSpeed": 0.3,
+	"buildPower": 2.0,
+	"engineColor": "666495",
+	"flying": false,
+	"health": 50,
+	"weaponOffsetX": 4,
+	"weapon": {
+		"name": "stone-launcher",
+		"length": 1.5,
+		"reload": 8,
+		"alternate": false,
+		"bullet": {
+			"speed" : 4,
+			"damage" : 10,
+			"bulletWidth" : 3,
+			"bulletHeight" : 9,
+			"frontColor" : #D3D3D3,
+			"backColor" : #BEBEBE,
+               }
+	}
+}

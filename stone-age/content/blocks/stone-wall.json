@@ -1,0 +1,12 @@
+{
+	"name": "Stone Wall",
+	"description": "It can't even resist a crawler, but at least it's cheap.",
+	"type": "Wall",
+	"health": 40,
+	"size": 1,
+	"requirements": [
+		{ "item": "stone", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

@@ -1,0 +1,25 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Silex Generator",
+	"description": "Yaaaayyy... Power from stone. Wow.",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 30,
+	"powerProduction": 0.2,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "stone", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "stone", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "power",
+	"research": "combustion-generator"
+}

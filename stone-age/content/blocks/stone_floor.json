@@ -1,0 +1,7 @@
+{
+	"type": "floor",
+	"name": "Stone",
+	"itemDrop": "stone",
+	"variants": 3,
+	"playerUnmineable": false
+}

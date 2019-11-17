@@ -1,0 +1,26 @@
+{
+	"name": "The Tank Factory",
+	"description": "Makes Tank. Nice.",
+	"type": "UnitFactory",
+	"unitType": "the-tank",
+	"size": 3,
+	"produceTime": 35,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 20},
+				{"item": "silicon", "amount": 15},
+				{"item": "copper", "amount": 15},
+			]
+		}
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 25},
+	]
+}

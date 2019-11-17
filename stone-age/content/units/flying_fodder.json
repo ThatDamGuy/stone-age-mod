@@ -1,0 +1,30 @@
+{
+	"name": "Flying Fodder",
+	"description": "THIS SHIP IS BASED ON A MECH BASED ON STONE! What did you expect?",
+	"health": 20,
+	"mass": 1.0,
+	"speed": 1.0,
+	"maxVelocity": 2.0,
+	"drag": 0.01,
+	"shootCone": 1.0,
+	"flying": true,
+	"engineOffset": 1,
+	"engineSize": 1,
+	"weapon": {
+		"name": "stone-launcher",
+		"length": 1.5,
+		"reload": 26.0,
+		"width" : 3,
+		"shots": 1,
+		"innacuracy": 6.0,
+		"alternate": false,
+		"bullet": {
+			"speed" : 4,
+			"damage" : 10,
+			"bulletWidth" : 3,
+			"bulletHeight" : 9,
+			"frontColor" : "D3D3D3",
+			"backColor" : "BEBEBE"
+               }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Cannon Fodder Pad",
+	"description": "Transform into the Cannon Fodder mech. Why would you do that?",
+	"type": "MechPad",
+	"mech": "cannon-fodder",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "dart-mech-pad",
+	"requirements": [
+		{ "item": "stone", "amount": 70 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "graphite", "amount": 10 },
+	]
+}
